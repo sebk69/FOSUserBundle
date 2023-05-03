@@ -1,0 +1,18 @@
+parameters:
+    level: 1
+    paths:
+        - Command
+        - Controller
+        - DependencyInjection
+        - Doctrine
+        - Event
+        - EventListener
+        - Form
+        - Mailer
+        - Model
+        - Resources
+        - Security
+        - Util
+        - Validator
+    ignoreErrors:
+        - '*Doctrine*'
