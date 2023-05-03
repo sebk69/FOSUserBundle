@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  app:
+    container_name: fos-user-bundle-test
+    build:
+      context: .
+      args:
+        timezone: Europe/Paris
+    volumes:
+      - .:/usr/src/fos-user-bundle
+      - ./tmp:/tmp
